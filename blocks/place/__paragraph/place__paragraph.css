@@ -6,19 +6,19 @@
 }
 
 .place__paragraph:last-of-type {
-    margin-bottom: 0;
-  }
+  margin-bottom: 0;
+}
 
-  @media screen and (max-width: 768px) {
-    .place__paragraph {
-      font-size: 16px;     
-      margin-bottom: 25px;
-    }
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    margin-bottom: 25px;
   }
-  
-  @media screen and (max-width: 500px) {
-    .place__paragraph {
-      max-width: calc(100% - 2 * 16px);
-      margin: 0 auto;     
-    }
+}
+
+@media screen and (max-width: 500px) {
+  .place__paragraph {
+    max-width: calc(100% - 2 * 16px);
+    margin: 0 auto;
   }
+}

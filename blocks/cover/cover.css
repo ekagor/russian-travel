@@ -5,6 +5,7 @@
   background-position: center;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100%;

@@ -8,10 +8,10 @@
   padding: 0;
 }
 
-@media screen and (max-width: 767px){
+@media screen and (max-width: 767px) {
   .lead__title {
     font-size: calc((100vw - 320px) / (767 - 320) * (96 - 40) + 40px);
-    
+
     line-height: 1.1;
     margin-bottom: calc(16px + (32 - 16) * ((100vw - 320px)/(1280 - 320)));
   }

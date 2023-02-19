@@ -1,0 +1,8 @@
+.header__lang {
+  display: grid;
+    grid-template-columns: repeat(2, min-content);
+    gap: 18px;
+    align-items: end;    
+    margin: 0;
+    padding: 0 0 5px;
+}

@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding: 0 0 24px;
 }
+
 @media screen and (max-width: 1000px) {
   .footer {
     width: calc(100% - 2 * 36px);
@@ -22,7 +23,7 @@
 @media screen and (max-width: 750px) {
   .footer {
     width: 100%;
-    flex-direction: column;    
+    flex-direction: column;
     padding: 0 16px 24px;
   }
 }

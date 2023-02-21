@@ -6,13 +6,11 @@
   line-height: 1.05;
   text-align: center;
   margin: 0 auto 32px;
-  padding-top: calc(32px + (245 - 32) * ((100vw - 320px)/(1280 - 320)));
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
     font-size: calc(32px + (72 - 32) * ((100vw - 320px)/(767 - 320)));
-    line-height: 1.05;
     margin-bottom: calc(16px + (32 - 16) * ((100vw - 320px)/(767 - 320)));
   }
 }

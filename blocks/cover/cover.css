@@ -1,16 +1,17 @@
 .cover {
-  width: calc(100% - 2 * 48px);  
+  width: calc(100% - 2 * 48px);
   background-image: url(../../images/cover-trains.jpg);
   background-size: cover;
   background-position: center;
   margin: 0 auto;
   z-index: 0;
 }
+
 .cover:before {
   content: '';
   width: 100%;
   height: 100%;
-  position: absolute;  
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -20,7 +21,7 @@
 }
 
 .cover:hover:before {
-  opacity: 0.8;  
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {

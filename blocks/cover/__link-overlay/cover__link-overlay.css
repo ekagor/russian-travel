@@ -7,11 +7,6 @@
   justify-content: center;
 }
 
-.cover__link-overlay:hover {
-  background: rgba(37, 40, 43, 0.8);
-  transition: 0.5s ease;
-}
-
 @media screen and (max-width: 1024px) {
   .cover__link-overlay {
     min-height: 640px;
